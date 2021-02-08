@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Game</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-title">
+          <h1>The Great</h1>
+          <h1><span id="game-title">RGB</span></h1>
+          <h1>Color Game</h1>
+        </div>
+      </div>
+    </nav>
+    <div class="menu">
+      <div class="container">
+        <div class="user-options">
+          <div class="option-left">
+            <button id="refresh">New Colors</button>
+            <button id="rgb" class="active">RGB</button>
+            <button id="hex">Hex</button>
+          </div>
+          <div class="option-right">
+            <button id="easy">Easy</button>
+            <button id="hard" class="active">Hard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="colors">
+      <div class="easy color-block"></div>
+      <div class="easy color-block"></div>
+      <div class="easy color-block"></div>
+
+      <div class="hard color-block"></div>
+      <div class="hard color-block"></div>
+      <div class="hard color-block"></div>
+    </section>
+
+    <footer>
+      <p>
+        created by
+        <a href="https://github.com/Leopoldov95" target="#">Leopoldo Ortega</a>
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

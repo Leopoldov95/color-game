@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+  nav {
+    height: 130px;
+  }
+
+  button {
+    padding: 10px 8px;
+  }
+
+  .container .nav-title #game-title {
+    font-size: 2rem;
+  }
+
+  .menu .container .user-options {
+    padding: 0 12px;
+  }
+}
